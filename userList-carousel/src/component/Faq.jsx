@@ -13,7 +13,7 @@ const Faq = () => {
                   <h2>All the userList A's to your Q's</h2>
                 </div>
               </div>
-              <div className="col-md-6 offset-md-3">
+              <div className="col-md-6 ">
                 <div className="faq" id="accordion">
                   {faqItems.map((item, index) => (
                     <div className="card" key={index}>
@@ -44,6 +44,16 @@ const Faq = () => {
                     </div>
                   ))}
                 </div>
+              </div>
+              <div className="col-md-6 d-flex flex-column justify-content-center mb-4 container">
+                <div className="col-md-12 mb-4">
+                  <img src="https://static.vecteezy.com/system/resources/previews/015/411/455/non_2x/two-bloggers-recording-video-adult-persons-having-an-emotional-conversation-on-camera-social-media-network-process-friends-making-content-for-their-channel-camera-ring-light-on-tripods-vector.jpg" alt="" style={{height:"250px",width:"100%",borderRadius:"10px"}}/>
+                </div>
+                <div className="d-flex flex-row col-md-6 justify-content-between align-items-center">
+                  <img src="https://thumbs.dreamstime.com/b/mobile-phone-users-taking-photo-recording-videos-internet-addicted-people-making-sharing-content-online-social-media-network-280275142.jpg" alt="" style={{width:"100%",height:"250px",borderRadius:"10px"}}/>
+                  <img src="https://img.freepik.com/free-vector/young-people-listening-music-illustrated_23-2148287452.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708387200&semt=ais" alt="" style={{width:"100%",height:"250px",borderRadius:"10px",marginLeft:"1.8rem"}} />
+                </div>
+
               </div>
             </div>
           </div>
