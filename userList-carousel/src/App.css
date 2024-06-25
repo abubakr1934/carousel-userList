@@ -1,0 +1,89 @@
+/* App.css */
+
+body {
+  font-family: 'Bebas Neue', sans-serif !important;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  
+  font-size: 50px !important;
+  font-weight: 500 !important;
+  color: red !important;
+}
+
+
+.owl-carousel .item {
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  border-radius: 25px;
+}
+
+.item {
+  height: 535px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.white {
+  background-color: #fcfbf8;
+  
+}
+.beige {
+  background-color: #f0eeea;
+  padding: 0; 
+}
+.beige1 {
+  background-color: #f0eeea;
+  padding: 1.2rem; 
+}
+
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text h2 h3{
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.text p {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+p{
+  font-size: 18px;
+}
+
+.video-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px; /* Apply border-radius to the video container */
+  overflow: hidden; /* Ensure video does not exceed container dimensions */
+}
+
+.video-player {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire container */
+}
+.owl-theme{
+  margin-top: 15px;
+}
+.profile{
+  display: flex;
+  justify-content: start;
+}
+.name{
+  margin-left: 5px;
+}
