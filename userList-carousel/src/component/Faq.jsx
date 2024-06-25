@@ -26,7 +26,7 @@ const Faq = () => {
                             aria-expanded={index === 0}
                             aria-controls={`faqCollapse-${index}`}
                           >
-                            <span className="badge">{index + 1}</span>
+                            <center><span className="badge">{index + 1}</span></center>
                             {item.question}
                           </h5>
                         </div>
@@ -51,7 +51,7 @@ const Faq = () => {
                 </div>
                 <div className="d-flex flex-row col-md-6 justify-content-between align-items-center">
                   <img src="https://thumbs.dreamstime.com/b/mobile-phone-users-taking-photo-recording-videos-internet-addicted-people-making-sharing-content-online-social-media-network-280275142.jpg" alt="" style={{width:"100%",height:"250px",borderRadius:"10px"}}/>
-                  <img src="https://img.freepik.com/free-vector/young-people-listening-music-illustrated_23-2148287452.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708387200&semt=ais" alt="" style={{width:"100%",height:"250px",borderRadius:"10px",marginLeft:"1.8rem"}} />
+                  <img src="https://thumbs.dreamstime.com/b/sound-recording-mobile-app-tiny-person-using-smart-voice-assistant-software-vector-illustration-cartoon-microphone-button-262721146.jpg" alt="" style={{width:"100%",height:"250px",borderRadius:"10px",marginLeft:"2rem"}} />
                 </div>
 
               </div>
