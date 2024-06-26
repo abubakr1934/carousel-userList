@@ -5,11 +5,16 @@ import './App.css'
 import CarouselComponent from './component/CarouselComponent'
 import Faq from './component/Faq'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import SignupLogin from './component/SignupLogin'
+import Homepage from './component/Homepage'
 function App() {
   return (
     <>
-      <CarouselComponent></CarouselComponent>
+      {/* <CarouselComponent></CarouselComponent>
       <Faq></Faq>
+      {/* <SignupLogin></SignupLogin>  */}
+      <Homepage></Homepage>
+      {/* <SignupLogin></SignupLogin> */}
     </>
   )
 }
