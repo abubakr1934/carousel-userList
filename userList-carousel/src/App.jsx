@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import SignupLogin from './component/SignupLogin'
 import Homepage from './component/Homepage'
 import Feature from './component/Feature'
+
 function App() {
   return (
     <>
@@ -15,7 +16,7 @@ function App() {
       <Faq></Faq>
       {/* <SignupLogin></SignupLogin>  */}
       <Homepage></Homepage>
-      
+      {/* <Testimonial></Testimonial> */}
       {/* <SignupLogin></SignupLogin> */}
     </>
   )
