@@ -1,0 +1,82 @@
+.links {
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.links::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; /* Adjust height as needed */
+  bottom: -2px; /* Adjust position as needed */
+  left: 0;
+  background-color: #ffffff; /* Underline color */
+  transition: width 0.3s ease-out; /* Adjust duration for speed */
+}
+
+.links:hover::before {
+  width: 100%;
+}
+
+.links:hover {
+  color: white;
+  -webkit-transition: color 0.3s ease-out; /* Adjust duration to match the underline animation */
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  -ms-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.button-hover {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  border: none;
+  transition: color 0.7s ease;
+  color: white;
+}
+
+.button-hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #0051ba;
+  transition: left 0.7s ease;
+  z-index: -1;
+}
+
+.button-hover:hover::before {
+  left: 0;
+}
+
+.button-hover:hover {
+  color: white;
+}
+
+.button-hover {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+  .spacing{
+    margin-left: -1rem;
+  }
+  
+  /* .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust z-index if needed to ensure it stays on top */
+  
+  
