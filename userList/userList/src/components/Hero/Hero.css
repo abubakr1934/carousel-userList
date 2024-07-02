@@ -1,0 +1,133 @@
+  @import
+        url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112.5,300;112.5,600;125,600&display=swap');
+body {
+    background-color: #FFFFEC;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  #hero {
+    
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem; 
+    margin-bottom: 6rem; 
+    max-width: 70%;
+  }
+  
+  #hero h3 {
+    color: rgb(0, 0, 0); 
+    font-size: 3rem;
+    letter-spacing: .05rem;
+    font-weight: 500;
+    margin: .5rem 0;
+    line-height: 1.05;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  #hero a {
+    color: rgb(7, 3, 43);
+    position: relative;
+    font-weight: 800;
+    font-style: normal;
+    box-shadow: inset 0 -1.5rem 0px #ecff40;
+      transition: all .4s ease-in;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  
+  #hero a:hover { 
+    box-shadow: inset 0 -3rem 0 #ecff40;
+    transition: all .2s ease-out;
+  } 
+   
+  #hero a img, #hero a video {
+    position: absolute;
+    opacity: 0; 
+    transition: transform .4s, opacity .1s;
+    transform: scale(.5) translate(1%, -102%); 
+    max-height: 200px;  
+    max-width: 300px;
+    /* contrast(0.5); */
+    z-index: 2;
+  }
+  
+  #hero a:hover img, #hero a:hover video {
+    opacity: 1; 
+    transform: scale(1) translate(0%, -106%); 
+    
+    transition: transform .2s, opacity .2s;
+  }
+  
+  
+  #hero div {
+    color: black;
+    display: flex;
+    padding: 4rem 0 4rem 0; 
+    justify-content: space-between;
+    max-width: 950px;
+  }
+  
+  #hero p {
+    width: calc(50% - 1rem);
+  }
+  
+  
+  
+  /* Say hi! */
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: block;
+    padding: 1.5rem 4rem .5rem 1.5rem;
+    font-family: Archivo, sans-serif;
+    font-variation-settings: 'wdth' 500;
+    text-decoration: none;
+    color: white;
+    background: #ff495c;
+  }
+  
+  .footer div {
+    line-height: 1.2rem;
+    position: relative;
+    margin-bottom: 1rem;
+    z-index: 2;
+  }
+  
+  .footer svg {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+   bottom: 0;
+    padding: .5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: rotate(45deg);
+    transition: all 200ms ease-out;
+  }
+  
+  .footer:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      width: 0%;
+      background: #da3143;
+      transition: all 300ms ease-in-out;
+  }
+  
+  .footer:hover:before {
+    width: 100%;
+  }
+  
+  .footer:hover svg {
+    transform: rotate(0deg);
+  }

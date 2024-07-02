@@ -72,11 +72,12 @@
     margin-left: -1rem;
   }
   
-  /* .fixed-header {
+  .fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Adjust z-index if needed to ensure it stays on top */
+    z-index: 1000; /* Adjust z-index if needed to ensure it stays on top*/
+  }
   
   

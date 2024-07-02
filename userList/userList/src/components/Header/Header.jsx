@@ -21,28 +21,28 @@ const Header = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-xl font-medium links text-black"
+                  className="text-xl font-medium links text-white"
                 >
                   Home
                 </a>
                 <a
                   href="#"
                   title=""
-                  className="text-xl  font-medium links text-black"
+                  className="text-xl  font-medium links text-white"
                 >
                   Features
                 </a>
                 <a
                   href="#"
                   title=""
-                  className="text-xl font-medium links text-black"
+                  className="text-xl font-medium links text-white"
                 >
                   Contact Us
                 </a>
                 <a
                   href="#"
                   title=""
-                  className="text-xl font-medium links text-black"
+                  className="text-xl font-medium links text-white"
                 >
                   Blogs
                 </a>

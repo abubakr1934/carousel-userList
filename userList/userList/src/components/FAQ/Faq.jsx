@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './Faq.css'
+import { FaCaretDown } from "react-icons/fa";
+
 // import 'bootstrap/dist/css/bootstrap.css';
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -37,7 +39,8 @@ const Faq = () => {
   ];
 
   return (
-    <div className="container mb-4">
+    <div className="bg-blue-950">
+      <div className="container mb-4 brdr bg-blue py-4">
       <article>
         <div className="img-container"></div>
         <div className="faq">
@@ -53,20 +56,8 @@ const Faq = () => {
                 <h3 className={activeIndex === index ? "h3-active" : ""}>
                   {item.question}
                 </h3>
-                <svg
-                  width="10"
-                  height="7"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className={activeIndex === index ? "svg-animation" : ""}
-                >
-                  <path
-                    d="M1 .799l4 4 4-4"
-                    stroke="#F47B56"
-                    strokeWidth="2"
-                    fill="none"
-                    fillRule="evenodd"
-                  />
-                </svg>
+                <FaCaretDown  style={{height:"25px",width:"25px"}}/>
+
               </div>
               <p className={activeIndex === index ? "p-visible" : ""}>
                 {item.answer}
@@ -75,6 +66,7 @@ const Faq = () => {
           ))}
         </div>
       </article>
+    </div>  
     </div>
   );
 };
