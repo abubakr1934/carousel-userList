@@ -1,72 +1,67 @@
-import React from "react";
-import "./Features.css";
+import React from 'react';
+import styles from './Features.module.css';
 
 const Features = () => {
   return (
-    <>
-    
-    <div className="wrapper">
-      <div className="container">
-        
-        <input type="radio" name="slide" id="c1" defaultChecked />
-        <label htmlFor="c1" className="card">
-          <div className="row">
-            <div className="icon">1</div>
-            <div className="description">
-              <h4>What is userList?</h4>
-              <p>userList a dedicated platform designed to support Micro, Small,
-              and Medium Enterprises. Our app offers a suite of features to help
-              businesses grow, connect with customers, and streamline their
-              operations.</p>
+    <div className='bg-orange-400'>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+      <section className={styles.heroSection}>
+        <div className={styles.cardGrid}>
+          <a className={styles.card} href="#">
+            <div
+              className={styles.cardBackground}
+              style={{
+                backgroundImage:
+                  "url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)",
+              }}
+            ></div>
+            <div className={styles.cardContent}>
+              <p className={ styles.cardHeading}>Feature heading</p>
+              <h3 className={styles.cardCategory}>brief description</h3>
             </div>
-          </div>
-        </label>
-
-        <input type="radio" name="slide" id="c2" />
-        <label htmlFor="c2" className="card">
-          <div className="row">
-            <div className="icon">2</div>
-            <div className="description">
-              <h4>what is userlist</h4>
-              <p>Gets better every day - stay tuned</p>
+          </a>
+          <a className={styles.card} href="#">
+            <div
+              className={styles.cardBackground}
+              style={{
+                backgroundImage:
+                  "url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)",
+              }}
+            ></div>
+            <div className={styles.cardContent}>
+            <p className={ styles.cardHeading}>Feature heading</p>
+            <h3 className={styles.cardCategory}>brief description</h3>
             </div>
-          </div>
-        </label>
-
-        <input type="radio" name="slide" id="c3" />
-        <label htmlFor="c3" className="card">
-          <div className="row">
-            <div className="icon">3</div>
-            <div className="description">
-              <h4>Globalization</h4>
-              <p>Help people all over the world</p>
+          </a>
+          <a className={styles.card} href="#">
+            <div
+              className={styles.cardBackground}
+              style={{
+                backgroundImage:
+                  "url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)",
+              }}
+            ></div>
+            <div className={styles.cardContent}>
+            <p className={ styles.cardHeading}>Feature heading</p>
+            <h3 className={styles.cardCategory}>brief description</h3>
             </div>
-          </div>
-        </label>
-
-        <input type="radio" name="slide" id="c4" />
-        <label htmlFor="c4" className="card">
-          <div className="row">
-            <div className="icon">4</div>
-            <div className="description">
-              <h4>New technologies</h4>
-              <p>Space engineering becomes more and more advanced</p>
+          </a>
+          <a className={styles.card} href="#">
+            <div
+              className={styles.cardBackground}
+              style={{
+                backgroundImage:
+                  "url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)",
+              }}
+            ></div>
+            <div className={styles.cardContent}>
+            <p className={ styles.cardHeading}>Feature heading</p>
+            <h3 className={styles.cardCategory}>brief description</h3>
             </div>
-          </div>
-        </label>
-        <input type="radio" name="slide" id="c5" />
-        <label htmlFor="c5" className="card">
-          <div className="row">
-            <div className="icon">5</div>
-            <div className="description">
-              <h4>New technologies</h4>
-              <p>Space engineering becomes more and more advanced</p>
-            </div>
-          </div>
-        </label>
-      </div>
+          </a>
+        </div>
+      </section>
     </div>
-    </>
   );
 };
 

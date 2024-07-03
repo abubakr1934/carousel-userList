@@ -1,8 +1,25 @@
+/* Header.css */
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  transition: background-color 0.3s ease-in-out;
+  background-color: #96C9F4 !important;
+}
+
+.fixed-header.scrolled {
+  background-color: #ffffff !important; 
+}
+
 .links {
   position: relative;
   display: inline-block;
   color: black;
   text-decoration: none;
+  transition: color 0.3s ease-out;
 }
 
 .links::before {
@@ -15,18 +32,21 @@
   background-color: #ffffff; /* Underline color */
   transition: width 0.3s ease-out; /* Adjust duration for speed */
 }
-
+.fixed-header.scrolled .links::before{
+  background-color: #0051ba; /* Underline color */
+  transition: width 0.3s ease-out; /* Adjust duration for speed */
+}
 .links:hover::before {
   width: 100%;
 }
 
 .links:hover {
   color: white;
-  -webkit-transition: color 0.3s ease-out; /* Adjust duration to match the underline animation */
-  -moz-transition: color 0.3s ease-out;
-  -o-transition: color 0.3s ease-out;
-  -ms-transition: color 0.3s ease-out;
-  transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out; /* Adjust duration to match the underline animation */
+}
+
+.fixed-header.scrolled .links {
+  color: #0051ba;
 }
 
 .button-hover {
@@ -36,7 +56,6 @@
   color: black;
   border: none;
   transition: color 0.7s ease;
-  color: white;
 }
 
 .button-hover::before {
@@ -68,16 +87,10 @@
   color: white;
 }
 
-  .spacing{
-    margin-left: -1rem;
-  }
-  
-  .fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Adjust z-index if needed to ensure it stays on top*/
-  }
-  
-  
+.spacing {
+  margin-left: -1rem;
+}
+
+.bgg1 {
+  background-color: #fdfdfd !important;
+}

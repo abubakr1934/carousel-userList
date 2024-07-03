@@ -131,3 +131,6 @@ body {
   .footer:hover svg {
     transform: rotate(0deg);
   }
+  .bgg{
+    background-color: #96C9F4;
+  }

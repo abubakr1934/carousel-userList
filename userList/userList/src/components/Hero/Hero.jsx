@@ -24,7 +24,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row justify-between mt-11">
+    <div className="flex flex-col md:flex-row justify-between mt-11 bgg">
       <div id="hero" className="grid grid-cols-1 md:grid-cols-6 gap-4">
         <h3 className="col-span-full">
           We are an award-winning creative marketing&nbsp;
