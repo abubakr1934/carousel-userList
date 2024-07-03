@@ -49,16 +49,16 @@ const Header = () => {
                 </a>
               </div>
 
-              <div className="hidden lg:flex lg:items-center lg:space-x-5">
+              <div className="hidden lg:flex lg:items-center lg:space-x-5 margin-right-override">
                 <button
                   type="button"
-                  className="inline-block rounded bgg1 px-6 pb-2 pt-2.5 text-s font-medium leading-normal text-black shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong button-hover"
+                  className="inline-block rounded-3xl bgg1 px-6 pb-2 pt-2.5 text-xl font-medium leading-normal text-black shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong button-hover"
                 >
                   Signup
                 </button>
                 <button
                   type="button"
-                  className="inline-block rounded bgg1 px-6 pb-2 pt-2.5 text-s font-medium leading-normal text-black shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong button-hover"
+                  className="inline-block rounded-3xl bgg1 px-6 pb-2 pt-2.5 text-xl font-medium leading-normal text-black shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong button-hover"
                 >
                   Login
                 </button>

@@ -92,5 +92,8 @@
 }
 
 .bgg1 {
-  background-color: #fdfdfd !important;
+  background-color: #38a0f5 !important;
+}
+.margin-right-override {
+  margin-right: -1.5rem !important;
 }

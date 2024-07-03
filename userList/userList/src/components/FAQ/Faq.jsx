@@ -39,8 +39,8 @@ const Faq = () => {
   ];
 
   return (
-    <div className="bg-blue-950">
-      <div className="container mb-4 brdr bg-blue py-4">
+    <div className="bgg2">
+      <div className="container mb-4 brdr bg-blue py-4 bgg2">
       <article>
         <div className="img-container"></div>
         <div className="faq">

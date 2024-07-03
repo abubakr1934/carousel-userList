@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FcPrevious } from "react-icons/fc";
 import { FcNext } from "react-icons/fc";
-
+import './Testimonial.css'
 const REVIEWS = [
     {
         id: 6,
@@ -95,7 +95,7 @@ function Testimonial() {
     }, []);
 
     return (
-        <div className="bg-gradient-to-tr from-orange-400 to-orange-400 text-slate-800 flex flex-col justify-center items-center min-h-screen relative px-4 min-w-full">
+        <div className="bgg text-slate-800 flex flex-col justify-center items-center min-h-screen relative px-4 min-w-full">
             <main className="bg-white my-4 w-full max-w-4xl rounded-3xl text-center p-8 sm:p-16">
                 <h1 className="text-4xl font-bold">A word from our customers</h1>
                 <p className="text-sm">We've been helping businesses do their best since 2018</p>
