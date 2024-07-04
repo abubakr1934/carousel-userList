@@ -7,7 +7,9 @@
   width: 100%;
   z-index: 1000; 
   transition: background-color 0.3s ease-in-out;
-  background-color: #96C9F4 !important;
+  background-color: #3ABEF9 !important;
+  background: #ffffff1a;
+  backdrop-filter: blur(16px) saturate(120%) !important;
 }
 
 .fixed-header.scrolled {
@@ -92,7 +94,7 @@
 }
 
 .bgg1 {
-  background-color: #38a0f5 !important;
+  background-color: #237cc5 !important;
 }
 .margin-right-override {
   margin-right: -1.5rem !important;

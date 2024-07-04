@@ -7,17 +7,20 @@ import Footer from './components/Footer/Footer.jsx'
 import Header from './components/Header/Header.jsx'
 import Faq from './components/FAQ/Faq.jsx'
 import Hero from './components/Hero/Hero.jsx'
+import HeroOption from './components/Hero/HeroOption/HeroOption.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
     <Header></Header>
-    <Hero></Hero>
+    <HeroOption></HeroOption>
     <Features></Features>
     <Faq></Faq>
     <Testimonial></Testimonial>
     <Footer></Footer>
+
+    
     
     
       </>

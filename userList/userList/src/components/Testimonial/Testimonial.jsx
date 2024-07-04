@@ -106,7 +106,7 @@ function Testimonial() {
                         <div id="list-cards" className="grid [grid-template-areas:'stack'] overflow-hidden justify-items-center">
                             {REVIEWS.map((review, idx) => (
                                 <div key={review.id} className={`card [grid-area:stack] ${idx === currentIndex ? '' : 'opacity-0'} transition-opacity duration-500`}>
-                                    <blockquote className={`bg-black text-white rounded-md p-6 text-sm transition-all duration-500 ${idx === currentIndex ? '' : 'scale-0 before:-translate-y-full'} text-center`}>
+                                    <blockquote className={`bg-blue-950 text-white rounded-md p-6 text-sm transition-all duration-500 ${idx === currentIndex ? '' : 'scale-0 before:-translate-y-full'} text-center`}>
                                         "{review.review}"
                                     </blockquote>
                                     <div className={`details text-sm transition-all duration-500 flex flex-col items-center gap-2 mt-6 ${idx === currentIndex ? '' : 'scale-0 translate-y-[150px]'}`}>
