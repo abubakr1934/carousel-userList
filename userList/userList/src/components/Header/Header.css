@@ -20,7 +20,7 @@
 .links {
   position: relative;
   display: inline-block;
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
@@ -56,7 +56,7 @@
   position: relative;
   overflow: hidden;
   background-color: white;
-  color: black;
+  color: rgb(255, 255, 255);
   border: none;
   transition: color 0.7s ease;
 }
@@ -68,7 +68,7 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: #F9B8B1;
+  background-color: #fffb00;
   transition: left 0.7s ease;
   z-index: -1;
 }
@@ -78,7 +78,7 @@
 }
 
 .button-hover:hover {
-  color: white;
+  color: black;
 }
 
 .button-hover {

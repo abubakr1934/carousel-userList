@@ -35,33 +35,23 @@ const Header = () => {
               </div>
 
               <div className="hidden lg:flex lg:items-center lg:space-x-7">
-                <a href="#" title="" className="text-xl font-medium links text-black">
+                <a href="#" title="" className="text-xl font-medium links text-white">
                   Home
                 </a>
-                <a href="#" title="" className="text-xl font-medium links text-black">
+                <a href="#" title="" className="text-xl font-medium links text-white">
                   Features
                 </a>
-                <a href="#" title="" className="text-xl font-medium links text-black">
+                <a href="#" title="" className="text-xl font-medium links text-white">
                   Contact Us
                 </a>
-                <a href="#" title="" className="text-xl font-medium links text-black">
+                <a href="#" title="" className="text-xl font-medium links text-white">
                   Blogs
                 </a>
               </div>
 
               <div className="hidden lg:flex lg:items-center lg:space-x-5 margin-right-override">
-                <button
-                  type="button"
-                  className="inline-block rounded-3xl bgg1 px-6 pb-2 pt-2.5 text-xl font-medium leading-normal text-black shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong button-hover"
-                >
-                  Signup
-                </button>
-                <button
-                  type="button"
-                  className="inline-block rounded-3xl bgg1 px-6 pb-2 pt-2.5 text-xl font-medium leading-normal text-black shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong button-hover"
-                >
-                  Login
-                </button>
+              <button class="bg-white text-black text-xl font-medium px-4 py-2 rounded shadow button-hover">Login</button>
+              <button class="bg-white text-black text-xl font-medium px-4 py-2 rounded shadow button-hover">Signup</button>
               </div>
             </nav>
           </div>
